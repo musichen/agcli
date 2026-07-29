@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 
 /**
- * AXI - Agent eXperience Interface
- * Lightweight CLI utilities for AI agent tooling.
+ * AGCLI — Agent CLI
+ * Lightweight command-line utilities for AI agent tooling.
  */
 
 const args = process.argv.slice(2);
 const command = args[0];
 
 function showHelp(): void {
-  console.log('AXI - Agent eXperience Interface\n');
+  console.log('AGCLI — Agent CLI\n');
   console.log('Usage:');
-  console.log('  axi echo <message>     Echo a message');
-  console.log('  axi date               Print current date/time');
-  console.log('  axi help               Show this help');
+  console.log('  agcli echo <message>     Echo a message');
+  console.log('  agcli date               Print current date/time');
+  console.log('  agcli help               Show this help');
 }
 
 switch (command) {

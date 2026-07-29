@@ -1,11 +1,11 @@
-# AXI — Agent eXperience Interface
+# AGCLI — Agent CLI
 
-Lightweight CLI utilities for AI agent tooling.
+Lightweight command-line utilities for AI agent tooling.
 
 ## Usage
 
 ```bash
-axi --help
+agcli --help
 ```
 
 ## License
